@@ -13,3 +13,6 @@
 #### The different modules in the program each open a graphical user interface (GUI). Each GUI has a similar design but contains differences specific to each module.
 
 #### (b) By giving two examples, explain how the principles of inheritance can be incorporated into the design of this administration program. (4 points)
+> Employee Class Inheritance: The program can have a base class called "Employee," which includes common attributes and methods for all types of employees (managers, office staff, sales personnel). Subclasses like "Manager," "OfficeStaff," and "SalesPerson" can inherit from the "Employee" class, inheriting its common attributes and methods while adding their specific functionalities.
+
+> Product Class Inheritance: If the company manages different types of products, a base class called "Product" can be defined with common attributes and methods related to all products. Subclasses like "Electronics," "Clothing," and "Furniture" can inherit from the "Product" class, inheriting its common functionalities while adding their specific properties and behaviors.
