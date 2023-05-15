@@ -10,6 +10,7 @@
 
 > Instantiation: Instantiation refers to the process of creating an object (instance) of a class. It involves allocating memory for the object and initializing its attributes based on the class definition. For example, if we have a class "Product," an instantiation of that class would be creating an object like "laptop" or "mobile phone," where each object has its specific attributes and values assigned.
 
+
 #### The different modules in the program each open a graphical user interface (GUI). Each GUI has a similar design but contains differences specific to each module.
 
 #### (b) By giving two examples, explain how the principles of inheritance can be incorporated into the design of this administration program. (4 points)
@@ -23,6 +24,7 @@
 > GUI Libraries: The program can utilize GUI libraries like JavaFX or Tkinter to create the graphical user interfaces for different modules. These libraries provide ready-to-use components and functionalities, allowing developers to build consistent and user-friendly interfaces efficiently.
 
 > Database Libraries: Libraries like JDBC (Java Database Connectivity) or SQLAlchemy (Python) can be used to interact with databases, facilitating tasks such as storing and retrieving product data, sales records, and employee information. These libraries abstract the complexities of database operations, making it easier to integrate database functionality into the program.
+
 
 #### 2. The company employs several sales personnel to sell its products to different retailers. Each branch of the company keeps track of its own sales with a suite of programs that include the two #### classes SalesPerson and Sales.
 
@@ -94,6 +96,7 @@ public Sales largestSale(){
 
 }
 ```
+ 
  
 #### Each instance variable is initialized when a SalesPerson object is instantiated.
 
@@ -194,6 +197,7 @@ System.out.println(salesPeople[0].calcTotalSales());
 
  }
 ```
+
 #### (d) State the output after running this code. (4 points)
 > The output after running the above code will be:
 ```
@@ -214,6 +218,7 @@ public double calcTotalSales() {
     return totalSales;
 }
 ```
+
 
 #### The salesPeople array contains 100 instantiated objects. The company wishes to reward the salesperson whose sales have the largest total value.
 
@@ -249,6 +254,7 @@ public static void addSales(Sales s, String id, SalesPerson[] salesPeople) {
     }
 }
 ```
+
 
 #### A further class in this suite of programs is the Payroll class. This class is run at the end of each month to calculate each salesperson’s salary, which is based on the sales that have been made during that month.
 
