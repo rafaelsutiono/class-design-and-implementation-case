@@ -204,7 +204,7 @@ System.out.println(salesPeople[0].calcTotalSales());
 102
 2
 2550.4
-1300.0
+5000.0
 ```
 
 #### (e) Construct the method calcTotalSales(), in the SalesPerson class that calculates the total value of the sales for a specific SalesPerson object. (5 points)
