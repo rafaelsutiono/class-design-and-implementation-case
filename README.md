@@ -8,3 +8,7 @@
 > Class: A class is a blueprint or template that defines the structure and behavior of objects. It represents a concept or a category of objects that share common attributes and methods. In the given scenario, a class could be "Product" or "Employee," which define the common properties and behaviors for all products and employees in the company.
 
 > Instantiation: Instantiation refers to the process of creating an object (instance) of a class. It involves allocating memory for the object and initializing its attributes based on the class definition. For example, if we have a class "Product," an instantiation of that class would be creating an object like "laptop" or "mobile phone," where each object has its specific attributes and values assigned.
+
+#### The different modules in the program each open a graphical user interface (GUI). Each GUI has a similar design but contains differences specific to each module.
+
+#### (b) By giving two examples, explain how the principles of inheritance can be incorporated into the design of this administration program. (4 points)
